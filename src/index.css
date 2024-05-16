@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#F792BA;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+
+body{
+    font-family: var(--font-family) !important;
+    background-color:white ;
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+    color: black;
+    text-decoration: none;
+}
+.product:hover
+{
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+}
+.product .btn 
+{
+    transition: transform 1s , opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--main-color);
+    font-size: larger;
+}
+
+.offline{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.form-control:focus {
+    border-color: #0aad0a;
+    box-shadow: 0 0 0 0.25rem rgba(0,110,0,.25);}
+
+
+.category img{
+    height: 500px;
+}
+
+.brdr{
+    border: 2px solid #0aad0a;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.wid{
+    width: 80%;
+}
+
+.categoriy-slider img{
+    height: 250px;
+}
+
+.fp{
+    transition: color .4s;
+}
+
+.fp:hover{
+    color: #0aad0a;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #f0f3f2 !important;
+}
+/* Centering the main container */
+  
+  
+  .navbar-logo {
+    height: 100px; /* Set the desired height */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  

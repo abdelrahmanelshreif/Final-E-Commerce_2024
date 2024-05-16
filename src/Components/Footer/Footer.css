@@ -1,0 +1,21 @@
+.footer {
+    background-color: #f0f3f2;
+    color: #F792BA;
+  }
+  
+  .footer input::placeholder {
+    color: #F792BA; /* Adjust placeholder color for better contrast */
+  }
+  
+  .footer hr {
+    border-top: 1px solid F792BA;
+  }
+  
+  .footer .btn.bg-main {
+    background-color: #007bff; /* Adjust the background color of the button */
+  }
+  
+  .footer a i {
+    color: F792BA; /* Ensure icon colors are white for consistency */
+  }
+  
