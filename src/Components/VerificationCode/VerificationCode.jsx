@@ -15,7 +15,7 @@ export default function VerificationCode() {
 
      function sendDataToApi(resetCode){
         setLoading(false)
-        let data = axios.post('https://ecommerce.routemisr.com/api/v1/auth/verifyResetCode' , {resetCode}).then(({data})=>{
+        let data = axios.post('https://e-commerce-2024-lzfv.onrender.com/api/v1/auth/verifyResetCode' , {resetCode}).then(({data})=>{
             if(data.status=='success'){
                 console.log(data)
                 navigate('/reset-password')
